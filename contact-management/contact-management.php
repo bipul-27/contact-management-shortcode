@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Contact Management
-Description: A simple contact management system.
+Description: A simple contact management system with shortcode.
 Version: 1.0
 Author:Bipul Karmokar
 */
