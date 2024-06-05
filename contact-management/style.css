@@ -73,7 +73,7 @@ body {
 .contact-management #contact-list table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: -40px;
+    margin-top: 20px;
     /* table-layout: auto; */
     table-layout: fixed;
 
@@ -123,8 +123,4 @@ body {
 
 .contact-management .actions button.delete {
     background-color: #f44336;
-}
-h2{
-    margin: 0px;
-    padding: 0px;
 }
