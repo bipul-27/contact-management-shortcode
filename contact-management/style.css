@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.contact-management #contact-form button:hover,
+.contact-management #edit-contact-form button:hover {
+    background-color: #555;
+}
+.contact-management #contact-form button:active,
+.contact-management #edit-contact-form button:active {
+    background-color: #777;
+}
+.contact-management .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.contact-management #contact-form {
+    background: #42c0bb;
+    color: #fff;
+    padding: 40px;
+    margin-top: 30px;
+}
+.contact-management #contact-form input,
+.contact-management #contact-form select,
+.contact-management #contact-form button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+.contact-management #contact-list {
+    margin-top: 30px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px #ccc;
+}
+.contact-management .contact-item {
+    padding: 10px;
+    border-bottom: 1px #ccc dotted;
+}
+.contact-management .contact-item:last-child {
+    border-bottom: none;
+}
+.contact-management .actions {
+    float: right;
+}
+.success-message {
+    display: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    border-radius: 5px;
+}
+.contact-management #contact-form .error-message,
+.contact-management #edit-contact-form .error-message {
+    display: none;
+    color: red;
+    font-size: 12px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.contact-management #contact-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+.contact-management #contact-list th, .contact-management #contact-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.contact-management #contact-list th {
+    background-color: #f2f2f2;
+}
+
+.contact-management #contact-list tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.contact-management #contact-list tr:hover {
+    background-color: #ddd;
+}
