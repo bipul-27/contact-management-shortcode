@@ -4,6 +4,11 @@ body {
     margin: 0;
     padding: 0;
 }
+.contact-management {
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
 .contact-management #contact-form button:hover,
 .contact-management #edit-contact-form button:hover {
     background-color: #555;
@@ -68,12 +73,23 @@ body {
 .contact-management #contact-list table {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 20px;
+    margin-top: -40px;
+    /* table-layout: auto; */
+    table-layout: fixed;
+
 }
+
 .contact-management #contact-list th, .contact-management #contact-list td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: left;
+    /* white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; */
+    text-align: left;
+    word-wrap: break-word; /* Enables word wrapping within cells */
+    white-space: normal; /* Allows the content to wrap to the next line */
+
 }
 
 .contact-management #contact-list th {
@@ -86,4 +102,29 @@ body {
 
 .contact-management #contact-list tr:hover {
     background-color: #ddd;
+}
+.contact-management .actions {
+    white-space: nowrap;
+}
+
+.contact-management .actions button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.contact-management .actions button.edit {
+    background-color: #2196F3;
+}
+
+.contact-management .actions button.delete {
+    background-color: #f44336;
+}
+h2{
+    margin: 0px;
+    padding: 0px;
 }
